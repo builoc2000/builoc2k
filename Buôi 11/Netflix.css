@@ -1,0 +1,90 @@
+.conteiner{
+    background-color: #000;
+}
+
+.grid{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 2000px;
+}
+
+.Television{
+    display: flex;
+    width: 100%;
+    min-height: 500px;
+    border-bottom:5px solid rgb(61, 61, 61) ;
+    padding-bottom: 50px 0 0 50px;
+}
+
+.Television__content{
+    color: #fff;
+    width: 50%;
+    margin: 100px;
+    height: 300px;
+    font-size: 30px;
+   
+}
+
+.Television__img img{
+    width: 300px;
+    height: 300px;
+    float: right;
+margin-top: 150px;
+}
+
+.dowload{
+    display: flex;
+    padding-bottom: 50px;
+   border-bottom: 5px solid rgb(61, 61, 61);
+  padding-bottom: 50px 0 0 50px;
+  
+}
+
+.dowload__img img{
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;  
+} 
+
+
+.dowload__content{
+    color: #fff;
+    width: 50%;
+    height: 300px;
+    font-size: 30px;
+  float: right;
+ 
+}
+.content{
+    border-bottom: 5px solid rgb(61, 61, 61);
+}
+
+.content1{
+    width: 30%;
+    color: #fff;
+    font-size: 20px;
+}
+
+.babykid{
+
+display: flex;
+border-bottom: 5px solid rgb(61, 61, 61);
+padding-bottom: 50px 0 0 50px;
+}
+
+.babykid__img img{
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.babykid__content{
+    color: #fff;
+    width: 50%;
+    height: 300px;
+    font-size: 30px;
+  float: right;
+  margin-left: 200px;
+}
