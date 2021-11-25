@@ -1,0 +1,32 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+:root{
+    --var
+}
+a{
+    text-decoration: none;
+}
+img{
+    height: 200px;
+  width: 100%;
+}
+body>div{
+  float: left;
+    justify-content: space-around;
+    width: 16%;
+    margin: 20px 2% 20px 2%;
+    
+}
+h1{
+    text-align: center;
+}
+h1 + div:hover{
+  transition-duration: 0.2s;
+    background-color: rgb(0, 255, 149);
+    opacity: 0.5;
+}
+h1~ div{
+    background-color: aqua;
+}
