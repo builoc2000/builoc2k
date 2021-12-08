@@ -1,0 +1,46 @@
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.box{
+ 
+    border: 1px solid #ccc;
+}
+.box img{
+    width: 100%;
+}
+
+@media screen and (max-width:500px) {
+*{
+    box-sizing: border-box;
+}
+h1{
+    width: 100%;
+    margin-left: 10px;
+}     
+      .wrapper{
+          display: block;
+      margin-left: 10%;
+         
+    }
+    .box{
+        width: 80%;       
+    }           
+}
+
+@media  screen and (max-width:700px) and (min-width:500px) {
+    *{
+        box-sizing: border-box;
+    }
+    .wrapper{
+        width: 100%;
+display: inline-block;
+    }
+    .box{
+      margin-right: 5%;
+        display: inline-block;
+        width: 40%;
+ 
+    
+}
