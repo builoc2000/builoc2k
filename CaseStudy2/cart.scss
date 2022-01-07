@@ -1,0 +1,365 @@
+$text-color: rgba(0,0,0,.87);
+$main--color: #fff;
+$bg-color:#F5F5F5;
+$font-text:Arial, Helvetica, sans-serif;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header {
+    width: 100%;
+    height: 100px;
+    
+  }
+  
+  /* header ---top */
+  #header__top {
+    height: 30px;
+    background-color: #c21411;
+  }
+  
+  .header__top-list {
+    list-style-type: none;
+    display: flex;
+    margin-left: 120px;
+  }
+  
+  .header__top-item {
+    color: #fff;
+    font-size: 12px;
+    margin-right: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 30px;
+    cursor: pointer;
+  }
+  /* end header---top */
+  
+  /* header--mid */
+  #header__mid{
+     background-color: red;   
+  }
+  .grid{
+    width: 1300px;
+    margin: 0 auto;
+  }
+  .header__grid{
+    display: flex;
+    height: 80px;
+  }
+  .header__image{
+  width: 100px;
+  height: 100%;
+  margin-right: 50px;
+  }
+ .header__image a svg{
+    color: red;
+    border-right: 1px solid #fff;
+    padding-right: 20px;
+    width: 100%;
+    height: 60%;
+    margin-top: 10px;
+ }
+
+ .header__cart h3{
+     color: $main--color;
+     font-size: 20px;
+     letter-spacing: 0.5px;
+     line-height: 73px;
+     margin-right: 300px;
+     font-family:Arial, Helvetica, sans-serif;
+     font-weight: 300;
+ }
+ .header__search{
+     flex: 1;
+     width: 100%;
+     height: 40px;
+     line-height: 80px;
+ }
+ .header__search input{
+     width: 100%;
+     height: 100%;
+     border: none;
+     outline: none;
+     border-radius: 6px;
+     padding-left: 10px;
+ }
+ #conteiner{
+     background-color: $bg-color;
+     padding-top: 10px;
+ }
+ .grid__cart{
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding-bottom: 20px;
+ }
+ .grid__cart-heading{
+     width: 100%;
+     background-color: $main--color;
+     height: 50px;
+     border: 1px solid #F3DB97;
+     margin-bottom: 10px;
+ }
+ .grid__cart-heading p{
+   line-height: 50px;
+   margin-left: 40px;
+   color: $text-color;
+   font-family: $font-text;
+ }
+
+ .grid__cart-name{
+   height: 55px;
+   width: 100%;
+   background-color: $main--color;
+   display: flex;
+   justify-content: space-between;
+   
+ }
+ .grid__cart-name ul {
+   display: flex;
+   margin-left: 40px;
+   line-height: 55px;
+ }
+ .grid__cart-name li input{
+   margin-right: 20px;
+ }
+ .grid__cart-name ul li{
+   list-style: none;
+   font-family: $font-text;
+ }
+ .grid__cart-name-list li{
+   padding: 0px 60px;
+   color: $text-color;
+   font-family: $font-text;
+ }
+ .grid__cart-product{
+   margin-top: 10px;
+   background-color: $main--color;
+ }
+ .grid__cart-link{
+   height: 60px;
+   width: 100%;
+   border-bottom: 1px solid #ccc;
+   
+ }
+ .grid__cart-link ul{
+   display: flex;
+   margin-left: 40px;
+ }
+ .grid__cart-link ul li{
+   list-style: none;
+   margin-right: 20px;
+   line-height: 60px;
+   font-family: $font-text;
+ }
+ .grid__cart-oder{
+      height: 140px;
+      width: 100%;     
+      border-bottom: 1px solid #ccc;
+      
+ }
+ .grid__cart-oder  li img{
+ width: 50px;
+ height: 50px;
+ }
+ .grid__cart-oder ul{
+   display: flex;
+   padding-left: 0px;
+}
+.grid__cart-oder ul li{
+ list-style: none;
+margin-top: 50px;
+margin-left: 40px;
+font-family: $font-text;
+}
+.cart__oder-tick{
+  padding-top: 20px;
+}
+.cart__oder-name {
+  width: 230px;
+}
+.grid__cart-oder .cart__oder-icon{
+  
+  margin-right: 30px;
+}
+.cart__oder-delete{
+  text-align: center;
+}
+.grid__cart-shipper{
+  height: 55px;
+  background-color: $main--color;
+}
+.grid__cart-shipper p{
+ line-height: 55px;
+ color: $text-color;
+ border-bottom: 1px solid #ccc;
+ padding-left: 40px;
+ font-size: 16px;
+ font-family: $font-text;
+ 
+}
+.cart-shipper-icon{
+  margin-right: 20px;
+  color: green;
+}
+
+.grid__cart-payment{
+  margin-top: 10px;
+  background-color: $main--color;
+  margin-bottom: 10px;
+}
+.cart__payment-voucher{
+  height: 42px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 1px solid #ccc;
+  font-family: $font-text;
+}
+.cart__payment-voucher span{
+ line-height: 42px;
+ font-size: 14px;
+}
+.cart__payment-shopeexu{
+  height: 42px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 1px solid #ccc;
+  padding-left: 52%;
+  line-height: 42px;
+}
+.cart__payment-shopeexu span{
+ padding: 0px 20px;
+ color: $text-color;
+ font-size: 14px;
+}
+.cart__payment{
+  display: flex;
+  height: 55px;
+  width: 100%;
+ 
+}
+.cart__payment ul{
+  display: flex;
+  margin-right: 200px;
+ justify-content: space-evenly;
+}
+.cart__payment ul li{
+  list-style: none;
+  padding: 0px 20px;
+  font-size: 16px;
+  color: $text-color;
+  line-height: 55px;
+  font-family: $font-text;
+}
+.cart__payment button{
+  width: 200px;
+  height: 40px;
+  background-color: #c21411;
+  color: $main--color;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  
+}
+footer{
+ 
+  background-color: #F2F3F4;
+  height: 215px;
+  width: 100%;
+  
+  padding-bottom: 0px;
+  }
+  
+  .grid__footer{
+   display: flex;
+   justify-content: space-between;
+   max-width: 1300px;
+   margin: 0 auto;
+   
+  }
+  .grid__footer-content:nth-last-child(1){
+    width: 250px;
+  
+  }
+  .grid__footer-content p{
+    font-size: 12px;
+    font-family: $font-text;
+    margin-bottom: 15px;
+   
+  }
+  .grid__footer-content h6{
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-family: $font-text;
+  }
+  .grid__footer-content img{
+  height: 42px;
+  width: 120px;
+  margin-bottom: 5px;
+  }
+  
+  .gird__info{
+    background-color: rgb(39,52,62);
+    height: 250px;
+    display: flex;
+    margin:  0 auto;
+    padding-top: 20px;
+  }
+    
+  
+  .gird__info-content{
+   width: 50%;
+   margin-left: 100px;
+   margin-right: 20px;
+  }
+  .gird__info-content img{
+    width: 110px;
+    height: 35px;
+  }
+  .grid__info-registration{
+  width: 50%
+  }
+  
+  .gird__info p{
+    color: #fff;
+    font-size: 12px;
+    font-family: inherit;
+    padding: 5px 0px;
+    font-family: $font-text;
+  }
+  
+  .gird__info h6{
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 0px;
+    font-family: $font-text;
+  }
+  
+  .grid__info-registration input{
+    width: 330px;
+    border-radius:  5px;
+    border: none;
+    outline: none;
+    height: 35px;
+    padding-left: 10px;
+    font-family: inherit;
+  }
+  .grid__info-registration button{
+    width: 100px;
+    border-radius: 5px;
+    background-color: red;
+    color: #fff;
+    height: 35px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+  }
+  /* end footer */

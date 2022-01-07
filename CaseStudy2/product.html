@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San pham chi tiet</title>
+    <link rel="stylesheet" href="product.css">
+    <script
+    src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+    data-auto-a11y="true"
+  ></script>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous"
+  />
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+    <header>
+        <div id="header__top   ">
+          <ul class="header__top-list">
+            <li class="header__top-item">Tải ứng dụng</li>
+            <li class="header__top-item">Chăm sóc khách hàng</li>
+            <li class="header__top-item">Kiểm tra đơn hàng</li>
+          </ul>
+         
+        </div>
+        <div class="conterner">
+          <div id="header__mid">
+            <div class="header__image">
+              <a href="file:///D:/codegym/CaseStudy2/home.html"><svg viewBox="0 0 87 48" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M69.052 12.375l-3.097 16.548a44.418 44.418 0 00-.74 6.633h-4.378l.27-2.94h-.068a6.042 6.042 0 01-5.251 3.008c-2.761 0-4.983-2.188-4.983-6.154 0-5.675 4.04-10.872 10.1-10.872.74 0 1.481.137 2.222.41l1.212-6.564 4.713-.069zm-6.666 10.394a2.664 2.664 0 00-1.885-.547c-2.828 0-4.848 3.35-4.848 6.496 0 1.983.875 3.077 2.222 3.077 1.414 0 3.03-1.436 3.636-4.581l.875-4.445zM4.481 30.017a10.123 10.123 0 005.252 1.436c1.818 0 3.501-.889 3.501-2.667 0-1.299-.942-2.12-2.962-3.145-2.424-1.3-4.646-3.009-4.646-5.95 0-4.512 3.905-7.316 8.753-7.316 2.693 0 4.31.616 5.252 1.163l-1.481 4.034a8.713 8.713 0 00-4.108-1.025c-2.222 0-3.366 1.162-3.366 2.393 0 1.299 1.346 2.12 3.232 3.145 2.693 1.436 4.444 3.283 4.444 5.95 0 4.991-4.108 7.59-9.023 7.59-3.097 0-5.32-.821-6.33-1.573l1.482-4.035zm27.606 4.308a13.756 13.756 0 01-5.992 1.3c-4.579 0-6.935-2.668-6.935-6.839 0-4.991 3.568-10.12 9.359-10.12 3.232 0 5.588 1.847 5.588 4.855 0 4.171-3.972 5.676-10.436 5.54 0 .615.202 1.162.471 1.64.606.82 1.684 1.3 3.098 1.3 1.548 0 3.097-.342 4.51-1.026l.338 3.35zm-4.174-12.24c-2.222 0-3.434 1.846-3.771 3.35 3.703.07 5.521-.478 5.521-1.982 0-.82-.606-1.368-1.75-1.368zm5.52 13.471l2.088-11.35c.404-2.052.74-4.24.875-5.676h4.242l-.404 3.077h.068a6.707 6.707 0 015.656-3.077c2.625 0 4.107 1.64 4.107 4.444 0 .958-.135 1.847-.27 2.804l-1.818 9.778h-4.713l1.75-9.368c.135-.615.135-1.23.135-1.846 0-1.163-.404-1.915-1.548-1.915-1.549 0-3.367 1.983-3.973 5.54l-1.414 7.59h-4.78zM84 25.3c0 5.95-3.973 10.325-9.561 10.325-4.107 0-6.8-2.735-6.8-6.77 0-5.675 3.904-10.325 9.56-10.325 4.31.069 6.8 3.078 6.8 6.77m-11.445 3.487c0 1.915.942 3.146 2.558 3.146 2.626 0 4.04-3.83 4.04-6.633 0-1.504-.606-3.077-2.558-3.077-2.694 0-4.107 4.034-4.04 6.565"
+                  fill="#fff"
+                ></path>
+              </svg></a>
+            </div>
+            <div class="header__menu-product">
+              <i class="fas fa-qrcode header__menu-icon"></i>
+              <ul class="header__product-list">
+                <li>
+                  <i class="fas fa-tshirt header__product-icon"></i>Thời Trang Nữ
+                  <i class="fas fa-chevron-right header__product-right"></i>
+                </li>
+                <li>
+                  <i class="fas fa-tshirt header__product-icon"></i>Thời Trang Nam
+                  <i class="fas fa-chevron-right header__product-right"></i>
+                </li>
+                <li>
+                  <i class="fas fa-tshirt header__product-icon"></i>Sức khỏe & làm
+                  đẹp <i class="fas fa-chevron-right header__product-right"></i>
+                </li>
+                <li>
+                  <i class="fas fa-shoe-prints header__product-icon"></i>Giày dép
+                  - Túi xách
+                  <i class="fas fa-chevron-right header__product-right"></i>
+                </li>
+                <li>
+                  <i class="far fa-clock header__product-icon"></i>Đồng hồ - Trang
+                  sức <i class="fas fa-chevron-right header__product-right"></i>
+                </li>
+                <li>
+                  <i class="fas fa-mobile-alt header__product-icon"></i>Điên thoai
+                  - Laptop<i
+                    class="fas fa-chevron-right header__product-right"
+                  ></i>
+                </li>
+                <li>
+                  <i class="fas fa-tshirt header__product-icon"></i>Phụ kiện công
+                  nghệ<i class="fas fa-chevron-right header__product-right"></i>
+                </li>
+                <li>
+                  <i class="far fa-microwave header__product-icon"></i>Điện máy
+                  gia dụng<i
+                    class="fas fa-chevron-right header__product-right"
+                  ></i>
+                </li>
+                <li>
+                  <i class="fas fa-home header__product-icon"></i>Nhà cửa tân
+                  trang <i class="fas fa-chevron-right header__product-right"></i>
+                </li>
+                <li>
+                  <i class="fas fa-tv header__product-icon"></i>Tivi - âm thanh -
+                  camera
+                  <i class="fas fa-chevron-right header__product-right"></i>
+                </li>
+                <li>
+                  <i class="fas fa-book header__product-icon"></i>Đời sống sách
+                  <i class="fas fa-chevron-right header__product-right"></i>
+                </li>
+                <li>
+                  <i class="fas fa-dog header__product-icon"></i>Bách hóa thú cưng
+                  <i class="fas fa-chevron-right header__product-right"></i>
+                </li>
+                <li>
+                  <i class="fas fa-baby header__product-icon"></i>Mẹ & bé đồ chơi
+                  <i class="fas fa-chevron-right header__product-right"></i>
+                </li>
+                <li>
+                  <i class="fas fa-coins header__product-icon"></i>Tiện ích
+                  <i class="fas fa-chevron-right header__product-right"></i>
+                </li>
+                <li>
+                  <i class="fas fa-coins header__product-icon"></i>Vay tiền mặt<i
+                    class="fas fa-chevron-right header__product-right"
+                  ></i>
+                </li>
+                <li>
+                  <i class="fas fa-plane header__product-icon"></i>Vé máy bay -
+                  Tuor du lịch
+                  <i class="fas fa-chevron-right header__product-right"></i>
+                </li>
+                <li>
+                  <i class="fas fa-car header__product-icon"></i>Ô tô - xe đạp -
+                  xe máy
+                  <i class="fas fa-chevron-right header__product-right"></i>
+                </li>
+                <li>
+                  <i class="fas fa-atlas header__product-icon"></i>Thể thao dã
+                  ngoại <i class="fas fa-chevron-right header__product-right"></i>
+                </li>
+              </ul>
+            </div>
+            <div class="header__search">
+              <input type="text " placeholder="Tìm kiếm trên Sendo..." />
+            </div>
+            <span><i class="fas fa-search header__search-icon"></i></span>
+            <div class="header__cart">
+              <i class="fas fa-shopping-cart header__cart-icon"></i>
+            </div>
+            <div class="header__btn">
+              <button>Đăng nhập</button>
+            </div>
+          </div>
+    
+        </div>
+      </header>
+      <!--End__Header -->
+      <div class="conteiner">
+            <section class="produc_list">
+                <ul>
+                    <li><a href="#">Sendo.vn   /   </a></li>
+                    
+                    <li><a href="#">Bách Hóa Tổng Hợp /  </a></li>
+                    
+                    <li><a href="#">Các loại thực phẩm khô   /   </a></li>
+                    
+                    <li><a href="#">Các loại thực phẩm khô khác</a></li>                  
+                </ul>
+            </section>
+            <section class="product__info">
+                <div class="product__info-image">
+                    <div class="image-big">
+                        <img src="./imageproduct/productbig1.png" alt="">
+                    </div>
+                    <div class="image-small">
+                        <img src="./imageproduct/productsmall.jpg" alt="">
+                        <img src="./imageproduct/productsmall.jpg" alt="">
+                        <img src="./imageproduct/productsmall.jpg" alt="">
+                        <img src="./imageproduct/productsmall.jpg" alt="">
+                        <img src="./imageproduct/productsmall.jpg" alt="">
+                        <img src="./imageproduct/productsmall.jpg" alt="">
+                    </div>
+                </div>
+                <div class="product__info-body">
+                    <!-- <img src="./imageproduct/dealsoc.png" alt=""  class="image-dealsoc"> -->
+                    
+                    <div class="product-body-name">
+                        <img src="./imageproduct/productshop.png" alt="">
+                        <h5>Cơm cháy khô gà 3 hủ - Combo 3 hủ </h5>
+                    </div>
+                    <div class="product-body-price">
+                        <h1>118.750đ</h1>
+                        <span style="text-decoration: line-through; color: #b7bbbf; font-size: 14px">125.000d</span> <span style="color:#ee2624 ; font-size: 14px;">Giảm 5%</span>
+                    </div>
+                    <div class="product-body-review">
+                        <ul>
+                            <li><i class="fas fa-star" style="color:#ffc600;font-size: 14px;"></i><i class="fas fa-star" style="color:#ffc600;font-size: 14px; "></i><i class="fas fa-star" style="color:#ffc600;font-size: 14px; "></i><i class="fas fa-star" style="color:#ffc600;font-size: 14px; "></i><i class="fas fa-star" style="color:#ffc600;font-size: 14px; "></i></li>
+                            <li style=""><a href="12 đánh giá" style="text-decoration: none;font-size: 14px; font-weight: 500;">12 đánh giá</a></li> 
+                            <li style="color: #6f787e;"><i class="fas fa-shopping-bag"></i> 149 lượt mua</li>
+                        </ul>
+                    </div>
+                    <div class="product-body-number">
+                       <ul>
+                           <li> <p>Chọn số lượng</p></li>
+                           <li><form action="">
+                            <input type="number"   min="1" max="2">
+                           </form></li>
+                           <li><a href="" style="text-decoration: none; color: #ee2624;"> Còn 2 sản phẩm</a></li>
+                       </ul>
+                        
+                    </div>
+                    <div class="product-body-notification">
+                        <p><i class="fas fa-info-circle " style="color: #133096; margin-right: 25px;"></i> Chỉ được mua <span style="color: #000;font-weight: bolder;font-size: 14px;">2</span> sản phẩm khuyến mãi.</p>
+
+                    </div>
+                    <div class="product-body-buy">
+                        <button class="btn-1">Thêm vào giỏ </button>
+                        <button class="btn-2">Mua trươc trả sau</button>
+                        <a href="file:///D:/codegym/CaseStudy2/cart.html"><button class="btn-3">Mua ngay</button></a>
+                    </div>
+                    <div class="product-body-benefits">
+                        <ul>
+                            <li><p>Quyền lợi khách hàng</p></li>
+                            <li ><i class="fas fa-shield-alt" style="color:rgb(68, 148, 96); margin-right: 8px; "  ></i> 48 giờ hoản trả</li>
+                        </ul>               
+                </div>
+            </section>
+            <section id="shop">
+                <div class="shop">
+                    <div class="shop__home">
+                        <div class="shop__home-heading">
+                              <div class="shop__home-img">
+                                  <img src="./imageproduct/anhdaidienshop.png" alt="">
+                                </div>
+                                <div class="shop__home-heading-text">
+                                  <h5>Ăn vặt bếp nhà</h5>
+                                  <img src="./imageproduct/productshop.png" alt="">
+                                  <p>TP Hồ chí Minh | 4.7 <span style="color: #ffc600;"><i class="fas fa-star"></i></span></p>
+                                </div>
+                              
+                        </div>
+                        <div class="shop__home-history">
+                            <ul>
+                                <li>
+                                  <h5>3 năm</h5>
+                                      <p>Bán ở Sendo</p>
+                                </li>
+                                <li>
+                                      <h5>56</h5>
+                                      <p>Sản phẩm</p>
+                                </li>
+                                <li>
+                                  <h5>1 ngày</h5>
+                                  <p>Chuẩn bị hàng </p>
+                                </li>
+                                <li>
+                                  <h5>100%</h5>
+                                  <p>Tỉ lệ phản hồi </p>
+                                </li>
+                                <li>
+                                  <h5>Trong vài....</h5>
+                                  <p>Shop phản hồi </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="shop__home-info">
+                          <button class="btn-1"><i class="fas fa-heartbeat"></i>Theo dõi shop</button>
+                          <button class="btn-2"><i class="fas fa-home"></i>Vào Shop</button>
+                          <button class="btn-3"><i class="fas fa-phone-square"></i></button>
+                        </div>
+                        <div class="shop__home-product">
+                          <ul>
+                            <li>
+                              <img src="./imageproduct/shop__home1.jpg" alt="">
+                              <p >Cơm cháy lắc khô gà mini combo 3</p>
+                              <p style="color: #000; font-weight: bold;">60.000d</p>
+                            </li>
+                            <li>
+                              <img src="./imageproduct/shop__home2.jpg" alt="">
+                              <p>Cơm cháy bế mắm hành....</p>
+                              <p style="margin-bottom: 0px; color: #000; font-weight: bold;">62.000 d</p>
+                              <span style="text-decoration: line-through; font-size: 12px; color: #b7bbbf; ">75.000 đ </span > <span style="color: #ee2624;">-17%</span>
+                            </li>      
+                            <li>
+                              <img src="./imageproduct/shop__home1.jpg" alt="">
+                              <p>Cơm cháy bế mắm hành....</p>
+                              <p style="margin-bottom: 0px; color: #000; font-weight: bold;">62.000 d</p>
+                              <span style="text-decoration: line-through; font-size: 12px; color: #b7bbbf;  ">75.000 đ </span > <span style="color: #ee2624;">-17%</span>
+                            </li>                  
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="Product__details">
+                        <div class="product__description">
+                          <h6 style="color: #0f1e29; font-weight: 700;">Mô tả sản phẩm</h6>
+                          <p class="product__description-title"> KHÔ GÀ XÉ CAY LÁ CHANH NGON LOẠI  1 (để mua nhiều sản phẩm khác hơn, khách vui lòng vào link này trang chủ shop) 🔹 khô gà ngon, làm từ 100% gà tươi Việt Nam và ớt nguyên trái ạ.🔹 khô gà bên mình giòn, vì khô sấy khô giòn ạ, khách muốn ăn mềm và da...</p>
+                          <h6 style="color: #3f4b53;">Thông tin cơ bản </h6>
+                          <table>
+                            <tr style="background-color: #F3F4F5; " >
+                              <th ><p >Đặc sản vùng</p></th>
+                              <th><p>Thành phố HCM</p></th>
+                            </tr>
+                            <tr>
+                              <td><p>Xuất Xứ</p></td>
+                              <td><p>Việt Nam</p></td>
+                            </tr>
+                            <tr>
+                              <td><p>Trong lượng(trên bao bì</p></td>
+                              <td><p>1100g</p></td>
+                            </tr>
+                          </table>
+                          <button>Xem thêm</button>
+                        </div>
+
+                        <div class="product__reviews">
+                          <h6>Đánh giá nhận về sản phẩm <span >(39 luợt đánh giá)</span> </h6>
+                           <div class="product__reviews-info">
+                                <div class="product__reviews-data">
+                                  <h3>5.0  <span class="product__reviews-data-number">/  5</span> <span class="product__reviews-data-icon"><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></h3>
+                                    <p>Đây là thông tin người mua đánh giá shop bán sản phẩm này có đúng mô tả không.</p>
+                      
+                                </div>
+                                <div class="product__reviews-statistical">
+                                  <div class="reviews-statistical-star">
+                                    <i class="fas fa-star " style="color: #ffc600;"></i><i class="fas fa-star " style="color: #ffc600;"></i><i class="fas fa-star " style="color: #ffc600;"></i><i class="fas fa-star " style="color: #ffc600;"></i><i class="fas fa-star " style="color: #ffc600;"></i>
+                                    <div class="evaluate-5"></div>
+                                    <span>34</span>
+                                  </div>
+
+                                  <div class="reviews-statistical-star">
+                                    <i class="fas fa-star" style="color: #ffc600"></i><i class="fas fa-star" style="color: #ffc600"></i><i class="fas fa-star" style="color: #ffc600"></i><i class="fas fa-star" style="color: #ffc600"></i><i class="fas fa-star" style="color: #ccc"></i>
+                                    <div class="evaluate-4"></div>
+                                    <span>10</span>
+                                  </div>
+
+                                  <div class="reviews-statistical-star">
+                                    <i class="fas fa-star" style="color: #ffc600"></i><i class="fas fa-star" style="color: #ffc600"></i><i class="fas fa-star" style="color: #ffc600"></i><i class="fas fa-star" style="color: #ccc";></i><i class="fas fa-star" style="color: #ccc;"></i>
+                                    <div class="evaluate-3"></div>
+                                    <span>3</span>
+                                  </div>
+
+                                  <div class="reviews-statistical-star">
+                                    <i class="fas fa-star" style="color: #ffc600"></i><i class="fas fa-star" style="color: #ffc600"></i><i class="fas fa-star" style="color: #ccc"></i><i class="fas fa-star" style="color: #ccc"></i><i class="fas fa-star" style="color: #ccc"></i>
+                                    <div class="evaluate-2"></div>
+                                    <span>4</span>
+                                  </div>
+                                  <div class="reviews-statistical-star">
+                                    <i class="fas fa-star" style="color: #ffc600"></i><i class="fas fa-star" style="color: #ccc"></i><i class="fas fa-star" style="color: #ccc"></i><i class="fas fa-star" style="color: #ccc"></i><i class="fas fa-star" style="color: #ccc"></i>
+                                    <div class="evaluate-1"></div>
+                                    <span>0</span>
+                                  </div>                                 
+                                </div>
+                              </div>
+
+                              <div class="reviews-user">
+                                <div class="review-user-box">
+                                  <div class="review-user-image">
+                                    <img src="./imageproduct/userreview.jpeg" alt="">
+                                  </div>
+                                  <div class="review-user-content">
+                                    <h5>Ronaldo <span><i class="fas fa-star" style="color: #ffc600; font-size: 8px; float: right;" ></i><i class="fas fa-star" style="color: #ffc600; font-size: 8px; float: right;" ></i><i class="fas fa-star" style="color: #ffc600; font-size: 8px; float: right;" ></i><i class="fas fa-star" style="color: #ffc600; font-size: 8px; float: right;" ></i><i class="fas fa-star" style="color: #ffc600; font-size: 8px; float: right;" ></i></span></h5>
+                                    <p class="review-user-time">12:32 | 05/03/2021</p>
+                                    <p class="review-user-text">Giá tốt. Giao hàng nhanh bất ngờ. ngon ngon, nhưng k thấy nhãn hiệu, hsd</p>
+                                    <img src="./imageproduct/ronaldo.jpg" alt="" style="width: 80px; height: 80px;">
+                                    <div style="float: right; margin-top: 50px; "><i class="far fa-thumbs-up"></i>Hữu ích</div>
+                                  </div>
+                                </div>
+                                <div class="review-user-box">
+                                  <div class="review-user-image">
+                                    <img src="./imageproduct/userreview.jpeg" alt="">
+                                  </div>
+                                  <div class="review-user-content">
+                                    <h5>Messi <span><i class="fas fa-star" style="color: #ffc600; font-size: 8px; float: right;" ></i><i class="fas fa-star" style="color: #ffc600; font-size: 8px; float: right;" ></i><i class="fas fa-star" style="color: #ffc600; font-size: 8px; float: right;" ></i><i class="fas fa-star" style="color: #ffc600; font-size: 8px; float: right;" ></i><i class="fas fa-star" style="color: #ffc600; font-size: 8px; float: right;" ></i></span></h5>
+                                    <p class="review-user-time">12:32 | 05/03/2021</p>
+                                    <p class="review-user-text">Giá tốt. Giao hàng nhanh bất ngờ. ngon ngon, nhưng k thấy nhãn hiệu, hsd</p>
+                                    <img src="./imageproduct/messi.jpg" alt="" style="width: 80px; height: 80px;">
+                                    <div style="float: right; margin-top: 50px; "><i class="far fa-thumbs-up"></i>Hữu ích</div>
+                                  </div>
+                                </div>
+                                <div class="review-user-box">
+                                  <div class="review-user-image">
+                                    <img src="./imageproduct/userreview.jpeg" alt="">
+                                  </div>
+                                  <div class="review-user-content">
+                                    <h5>Neymar <span><i class="fas fa-star" style="color: #ffc600; font-size: 8px; float: right;" ></i><i class="fas fa-star" style="color: #ffc600; font-size: 8px; float: right;" ></i><i class="fas fa-star" style="color: #ffc600; font-size: 8px; float: right;" ></i><i class="fas fa-star" style="color: #ffc600; font-size: 8px; float: right;" ></i><i class="fas fa-star" style="color: #ffc600; font-size: 8px; float: right;" ></i></span></h5>
+                                    <p class="review-user-time">12:32 | 05/03/2021</p>
+                                    <p class="review-user-text">Giá tốt. Giao hàng nhanh bất ngờ. ngon ngon, nhưng k thấy nhãn hiệu, hsd</p>
+                                    <img src="./imageproduct/neymar.jpg" alt="" style="width: 80px; height: 80px;">
+                                    <div style="float: right; margin-top: 50px; "><i class="far fa-thumbs-up"></i>Hữu ích</div>
+                                  </div>
+                                </div>
+                                <div class="review-user-box">
+                                  <div class="review-user-image">
+                                    <img src="./imageproduct/userreview.jpeg" alt="">
+                                  </div>
+                                  <div class="review-user-content">
+                                    <h5>Hanland<span><i class="fas fa-star" style="color: #ffc600; font-size: 8px; float: right;" ></i><i class="fas fa-star" style="color: #ffc600; font-size: 8px; float: right;" ></i><i class="fas fa-star" style="color: #ffc600; font-size: 8px; float: right;" ></i><i class="fas fa-star" style="color: #ffc600; font-size: 8px; float: right;" ></i><i class="fas fa-star" style="color: #ffc600; font-size: 8px; float: right;" ></i></span></h5>
+                                    <p class="review-user-time">12:32 | 05/03/2021</p>
+                                    <p class="review-user-text">Giá tốt. Giao hàng nhanh bất ngờ. ngon ngon, nhưng k thấy nhãn hiệu, hsd</p>
+                                    <img src="./imageproduct/halant.jpg" alt="" style="width: 80px; height: 80px;">
+                                    <div style="float: right; margin-top: 50px; "><i class="far fa-thumbs-up"></i>Hữu ích</div>
+                                  </div>
+                                </div>
+                              </div>
+
+                         </div>
+                      </div>
+
+                </div>
+
+            </section>
+
+            <div id="conteiner">
+              <div class="row">
+      
+                
+                  <div class="col-2">
+                    <div class="product-item">
+                      <img src="./image/product1.jpg" alt="" />
+                          <a href="file:///D:/codegym/CaseStudy2/product.html" class="product-item__name" >Áo Phông Nữ Cao cấp </a>                                                                                    
+                      <p class="product-item__price">100.00000 đ</p>
+                      <span class="oldprice">135%</span> <span class="discount">-20%</span>
+                      <p class="product-item__address">
+                        TPHCM <span class="product-item__quantily">Đã bán 168</span>
+                      </p>
+                    </div>         
+                  </div>
+                  
+                <div class="col-2">
+                  <div class="product-item">
+                    <img src="./image/product2.png" alt="" />
+                        <a href="#" class="product-item__name" >Áo Phông Nữ Cao cấp </a>                                                                                    
+                    <p class="product-item__price">100.00000 đ</p>
+                    <span class="oldprice">135%</span> <span class="discount">-20%</span>
+                    <p class="product-item__address">
+                      TPHCM <span class="product-item__quantily">Đã bán 168</span>
+                    </p>
+                  </div>         
+                </div>
+      
+                <div class="col-2">
+                  <div class="product-item">
+                    <img src="./image/product3.jpg" alt="" />
+                        <a href="#" class="product-item__name" >Áo Phông Nữ Cao cấp </a>                                                                                    
+                    <p class="product-item__price">100.00000 đ</p>
+                    <span class="oldprice">135%</span> <span class="discount">-20%</span>
+                    <p class="product-item__address">
+                      TPHCM <span class="product-item__quantily">Đã bán 168</span>
+                    </p>
+                  </div>         
+                </div>
+      
+                <div class="col-2">
+                  <div class="product-item">
+                    <img src="./image/product4.jpg" alt="" />
+                        <a href="#" class="product-item__name" >Áo Phông Nữ Cao cấp </a>                                                                                    
+                    <p class="product-item__price">100.00000 đ</p>
+                    <span class="oldprice">135%</span> <span class="discount">-20%</span>
+                    <p class="product-item__address">
+                      TPHCM <span class="product-item__quantily">Đã bán 168</span>
+                    </p>
+                  </div>         
+                </div>
+            
+      
+                <div class="col-2">
+                  <div class="product-item">
+                    <img src="./image/product5.jpg" alt="" />
+                        <a href="#" class="product-item__name" >Áo Phông Nữ Cao cấp </a>                                                                                    
+                    <p class="product-item__price">100.00000 đ</p>
+                    <span class="oldprice">135%</span> <span class="discount">-20%</span>
+                    <p class="product-item__address">
+                      TPHCM <span class="product-item__quantily">Đã bán 168</span>
+                    </p>
+                  </div>         
+                </div>
+            
+      
+                <div class="col-2">
+                  <div class="product-item">
+                    <img src="./image/product6.jpg" alt="" />
+                        <a href="#" class="product-item__name" >Áo Phông Nữ Cao cấp </a>                                                                                    
+                    <p class="product-item__price">100.00000 đ</p>
+                    <span class="oldprice">135%</span> <span class="discount">-20%</span>
+                    <p class="product-item__address">
+                      TPHCM <span class="product-item__quantily">Đã bán 168</span>
+                    </p>
+                  </div>         
+                </div>
+            
+      
+                <div class="col-2">
+                  <div class="product-item">
+                    <img src="./image/product7.jpg" alt="" />
+                        <a href="#" class="product-item__name" >Áo Phông Nữ Cao cấp </a>                                                                                    
+                    <p class="product-item__price">100.00000 đ</p>
+                    <span class="oldprice">135%</span> <span class="discount">-20%</span>
+                    <p class="product-item__address">
+                      TPHCM <span class="product-item__quantily">Đã bán 168</span>
+                    </p>
+                  </div>         
+                </div>
+            
+      
+                <div class="col-2">
+                  <div class="product-item">
+                    <img src="./image/product8.jpg" alt="" />
+                        <a href="#" class="product-item__name" >Áo Phông Nữ Cao cấp </a>                                                                                    
+                    <p class="product-item__price">100.00000 đ</p>
+                    <span class="oldprice">135%</span> <span class="discount">-20%</span>
+                    <p class="product-item__address">
+                      TPHCM <span class="product-item__quantily">Đã bán 168</span>
+                    </p>
+                  </div>         
+                </div>
+            
+      
+                <div class="col-2">
+                  <div class="product-item">
+                    <img src="./image/product9.jpg" alt="" />
+                        <a href="#" class="product-item__name" >Áo Phông Nữ Cao cấp </a>                                                                                    
+                    <p class="product-item__price">100.00000 đ</p>
+                    <span class="oldprice">135%</span> <span class="discount">-20%</span>
+                    <p class="product-item__address">
+                      TPHCM <span class="product-item__quantily">Đã bán 168</span>
+                    </p>
+                  </div>         
+                </div>
+            
+      
+                <div class="col-2">
+                  <div class="product-item">
+                    <img src="./image/product10.png" alt="" />
+                        <a href="#" class="product-item__name" >Áo Phông Nữ Cao cấp </a>                                                                                    
+                    <p class="product-item__price">100.00000 đ</p>
+                    <span class="oldprice">135%</span> <span class="discount">-20%</span>
+                    <p class="product-item__address">
+                      TPHCM <span class="product-item__quantily">Đã bán 168</span>
+                    </p>
+                  </div>         
+                </div>
+            
+      
+                <div class="col-2">
+                  <div class="product-item">
+                    <img src="./image/product3.jpg" alt="" />
+                        <a href="#" class="product-item__name" >Áo Phông Nữ Cao cấp </a>                                                                                    
+                    <p class="product-item__price">100.00000 đ</p>
+                    <span class="oldprice">135%</span> <span class="discount">-20%</span>
+                    <p class="product-item__address">
+                      TPHCM <span class="product-item__quantily">Đã bán 168</span>
+                    </p>
+                  </div>         
+                </div>
+            
+      
+                <div class="col-2">
+                  <div class="product-item">
+                    <img src="./image/product1.jpg" alt="" />
+                        <a href="#" class="product-item__name" >Áo Phông Nữ Cao cấp </a>                                                                                    
+                    <p class="product-item__price">100.00000 đ</p>
+                    <span class="oldprice">135%</span> <span class="discount">-20%</span>
+                    <p class="product-item__address">
+                      TPHCM <span class="product-item__quantily">Đã bán 168</span>
+                    </p>
+                  </div>         
+                </div>
+            
+      
+                <div class="col-2">
+                  <div class="product-item">
+                    <img src="./image/product1.jpg" alt="" />
+                        <a href="#" class="product-item__name" >Áo Phông Nữ Cao cấp </a>                                                                                    
+                    <p class="product-item__price">100.00000 đ</p>
+                    <span class="oldprice">135%</span> <span class="discount">-20%</span>
+                    <p class="product-item__address">
+                      TPHCM <span class="product-item__quantily">Đã bán 168</span>
+                    </p>
+                  </div>         
+                </div>
+            
+      
+                <div class="col-2">
+                  <div class="product-item">
+                    <img src="./image/product1.jpg" alt="" />
+                        <a href="#" class="product-item__name" >Áo Phông Nữ Cao cấp </a>                                                                                    
+                    <p class="product-item__price">100.00000 đ</p>
+                    <span class="oldprice">135%</span> <span class="discount">-20%</span>
+                    <p class="product-item__address">
+                      TPHCM <span class="product-item__quantily">Đã bán 168</span>
+                    </p>
+                  </div>         
+                </div>
+            
+      
+                <div class="col-2">
+                  <div class="product-item">
+                    <img src="./image/product1.jpg" alt="" />
+                        <a href="#" class="product-item__name" >Áo Phông Nữ Cao cấp </a>                                                                                    
+                    <p class="product-item__price">100.00000 đ</p>
+                    <span class="oldprice">135%</span> <span class="discount">-20%</span>
+                    <p class="product-item__address">
+                      TPHCM <span class="product-item__quantily">Đã bán 168</span>
+                    </p>
+                  </div>         
+                </div>
+            
+                <div class="col-2">
+                  <div class="product-item">
+                    <img src="./image/product1.jpg" alt="" />
+                        <a href="#" class="product-item__name" >Áo Phông Nữ Cao cấp </a>                                                                                    
+                    <p class="product-item__price">100.00000 đ</p>
+                    <span class="oldprice">135%</span> <span class="discount">-20%</span>
+                    <p class="product-item__address">
+                      TPHCM <span class="product-item__quantily">Đã bán 168</span>
+                    </p>
+                  </div>         
+                </div>
+            
+      
+                <div class="col-2">
+                  <div class="product-item">
+                    <img src="./image/product1.jpg" alt="" />
+                        <a href="#" class="product-item__name" >Áo Phông Nữ Cao cấp </a>                                                                                    
+                    <p class="product-item__price">100.00000 đ</p>
+                    <span class="oldprice">135%</span> <span class="discount">-20%</span>
+                    <p class="product-item__address">
+                      TPHCM <span class="product-item__quantily">Đã bán 168</span>
+                    </p>
+                  </div>         
+                </div>
+            
+      
+                <div class="col-2">
+                  <div class="product-item">
+                    <img src="./image/product1.jpg" alt="" />
+                        <a href="#" class="product-item__name" >Áo Phông Nữ Cao cấp </a>                                                                                    
+                    <p class="product-item__price">100.00000 đ</p>
+                    <span class="oldprice">135%</span> <span class="discount">-20%</span>
+                    <p class="product-item__address">
+                      TPHCM <span class="product-item__quantily">Đã bán 168</span>
+                    </p>
+                  </div>         
+                </div>
+      
+                <div class="col-2">
+                  <div class="product-item">
+                    <img src="./image/product1.jpg" alt="" />
+                        <a href="#" class="product-item__name" >Áo Phông Nữ Cao cấp </a>                                                                                    
+                    <p class="product-item__price">100.00000 đ</p>
+                    <span class="oldprice">135%</span> <span class="discount">-20%</span>
+                    <p class="product-item__address">
+                      TPHCM <span class="product-item__quantily">Đã bán 168</span>
+                    </p>
+                  </div>         
+                </div>
+      
+                <div class="col-2">
+                  <div class="product-item">
+                    <img src="./image/product1.jpg" alt="" />
+                        <a href="#" class="product-item__name" >Áo Phông Nữ Cao cấp </a>                                                                                    
+                    <p class="product-item__price">100.00000 đ</p>
+                    <span class="oldprice">135%</span> <span class="discount">-20%</span>
+                    <p class="product-item__address">
+                      TPHCM <span class="product-item__quantily">Đã bán 168</span>
+                    </p>
+                  </div>         
+                </div>
+      
+                <div class="col-2">
+                  <div class="product-item">
+                    <img src="./image/product1.jpg" alt="" />
+                        <a href="#" class="product-item__name" >Áo Phông Nữ Cao cấp </a>                                                                                    
+                    <p class="product-item__price">100.00000 đ</p>
+                    <span class="oldprice">135%</span> <span class="discount">-20%</span>
+                    <p class="product-item__address">
+                      TPHCM <span class="product-item__quantily">Đã bán 168</span>
+                    </p>
+                  </div>         
+                </div>
+      
+                <div class="col-2">
+                  <div class="product-item">
+                    <img src="./image/product1.jpg" alt="" />
+                        <a href="#" class="product-item__name" >Áo Phông Nữ Cao cấp </a>                                                                                    
+                    <p class="product-item__price">100.00000 đ</p>
+                    <span class="oldprice">135%</span> <span class="discount">-20%</span>
+                    <p class="product-item__address">
+                      TPHCM <span class="product-item__quantily">Đã bán 168</span>
+                    </p>
+                  </div>         
+                </div>
+      
+                <div class="col-2">
+                  <div class="product-item">
+                    <img src="./image/product1.jpg" alt="" />
+                        <a href="#" class="product-item__name" >Áo Phông Nữ Cao cấp </a>                                                                                    
+                    <p class="product-item__price">100.00000 đ</p>
+                    <span class="oldprice">135%</span> <span class="discount">-20%</span>
+                    <p class="product-item__address">
+                      TPHCM <span class="product-item__quantily">Đã bán 168</span>
+                    </p>
+                  </div>         
+                </div>
+      
+                <div class="col-2">
+                  <div class="product-item">
+                    <img src="./image/product1.jpg" alt="" />
+                        <a href="#" class="product-item__name" >Áo Phông Nữ Cao cấp </a>                                                                                    
+                    <p class="product-item__price">100.00000 đ</p>
+                    <span class="oldprice">135%</span> <span class="discount">-20%</span>
+                    <p class="product-item__address">
+                      TPHCM <span class="product-item__quantily">Đã bán 168</span>
+                    </p>
+                  </div>         
+                </div>
+            <div class="seemore">
+              <p>Xem thêm</p>
+            </div>
+                
+                
+              </div>
+            </div>
+          </div>
+      
+          <!--   che do bao hanh-->
+          <aside>
+                    <div class="conteiner-aside">
+                      <div class="aside">
+                        <img src="./image/footer1.png" alt="">
+                        <div class="aside-body">
+                          <h6>Siêu nhiều hàng tốt </h6>
+                          <p>Cần gì cũng có 26 ngành hàng & 10 triệu sản phẩm </p>
+                        </div>
+                      </div>
+                      <div class="aside">
+                        <img src="./image/footer2.png" alt="">
+                        <div class="aside-body">
+                          <h6>Siêu nhiều hàng tốt </h6>
+                          <p>Miễn phí đổi trả 48h </p>
+                        </div>
+                      </div>
+                      <div class="aside">
+                        <img src="./image/footer3.png" alt="">
+                        <div class="aside-body">
+                          <h6>Siêu nhiều hàng tốt </h6>
+                          <p>Mang cả thế giới mua sắm của sendo trong tầm tay bạn </p>
+                        </div>
+                      </div>
+                      <div class="aside">
+                        <img src="./image/footer4.png" alt="">
+                        <div class="aside-body">
+                          <h6>Siêu nhiều hàng tốt </h6>
+                          <p>Giá hợp lý vừa túi tiền .Luôn có nhiều chương trinh khuyến mãi </p>
+                        </div>
+                      </div>
+                    </div>
+          </aside>
+       
+          <!--  footer -->
+          <footer>
+                 <div class="gird   grid__footer">
+                    <div class="grid__footer-content">
+                      <h6>VỀ CHÚNG TÔI</h6>
+                      <p>Giới thiệu Sendo.vn</p>
+                      <p>Quy chế hoat dộng</p>
+                    </div>
+                    <div class="grid__footer-content">
+                      <h6>DÀNH CHO NGƯỜI MUA </h6>
+                      <p>Giải quyết khiếu nại</p>
+                      <p>Hướng dẫn mua hàng</p>
+                      <p>Chính sách đôi trả </p>
+                      <p>Chăm sóc khách hàng</p>
+                      <p>Nạp tiền điện thoại</p>
+                    </div>
+                    <div class="grid__footer-content">
+                      <h6>DÀNH CHO NGƯỜI BÁN </h6>
+                      <p>Quy định đôi với người bán</p>
+                      <p>Chính sách bán hàng</p>
+                      <p>Hệ thống tiêu chí kiểm duyệt</p>
+                      <p>Mở shop trên Sendo</p>               
+                    </div>
+                    <div class="grid__footer-content">
+                      <h6>TẢI ỨNG DỤNG SENDO </h6>
+                      <p>Mang thế giới mua sắm của Sendo trong tầm tay bạn</p>
+                      <img src="./image/appstore.png" alt="">   
+                      <img src="./image/googleplay.png" alt="">        
+                      <img src="./image/appGallery.png" alt="">
+                    </div>
+                 </div>
+                    <div class="gird  gird__info">
+                          <div class="gird__info-content">
+                            <h6>Công ty Cổ phần Công nghệ Sen Đỏ, thành viên của Tập đoàn FPT</h6>
+                            <p>Số ĐKKD: 0312776486 - Ngày cấp: 13/05/2014, được sửa đổi lần thứ 6, ngày 23/05/2016.</p>
+                            <p>Cơ quan cấp: Sở Kế hoạch và Đầu tư TPHCM. </p>
+                             <p> Địa chỉ: Tầng 5, Tòa nhà A, Vườn Ươm Doanh Nghiệp, Lô D.01, Đường Tân Thuận, Khu chế xuất Tân Thuận, 
+                               Phường Tân Thuận Đông, Quận 7, Thành phố Hồ Chí Minh, Việt Nam.</p>
+                               <p>Email: lienhe@sendo.vn</p>
+                               <img src="./image/dangkybct.png" alt="">
+                               <img src="./image/bct.png" alt="">
+                          </div>
+                          <div class="grid__info-registration">
+                            <h6>Đăng ký nhận bản tin ưu đãi khủng từ Sendo</h6>
+                            <input type="text" placeholder="Email của bạn la....">  <button>Đăng ký</button>
+                          </div>
+                    </div>
+          </footer>
+      </div>
+</body>
+</html>
